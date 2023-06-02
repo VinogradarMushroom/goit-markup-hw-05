@@ -568,7 +568,8 @@ img {
   width: 100%;
   height: 100%;
   background-color: background-color: rgba(46, 47, 66, 0.4);
-top: 0;
+   top: 0;
+    transition: opacity 300ms linear;
 }
 
 .modal {
