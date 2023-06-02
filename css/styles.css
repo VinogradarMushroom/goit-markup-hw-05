@@ -563,6 +563,14 @@ img {
 
 /**-----------------MODAL-------------*/
 
+.backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: background-color: rgba(46, 47, 66, 0.4);
+top: 0;
+}
+
 .modal {
   position: absolute;
   top: 50%;
