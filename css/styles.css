@@ -560,3 +560,24 @@ img {
   color: var(--second-tittle-color);
   font-family: "Roboto", sans-serif;
 }
+
+/**-----------------MODAL-------------*/
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  min-height: 500px;
+  background-color: rgba(46, 47, 66, 0.4);
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms linear;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
