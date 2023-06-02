@@ -131,7 +131,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-navigation .page{
+.header-navigation .page {
   color: var(--accent-color);
 }
 
@@ -615,6 +615,10 @@ img {
   font-family: "Roboto", sans-serif;
 }
 
+.social-media-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /**-----------------MODAL-------------*/
 
 .backdrop {
@@ -646,6 +650,7 @@ img {
   display: flex;
   top: 24px;
   right: 24px;
+  border-radius: 50%;
   align-items: center;
   justify-content: center;
   background-color: #e7e9fc;
@@ -668,6 +673,8 @@ img {
   pointer-events: none;
 }
 
-.social-media-icon{
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
