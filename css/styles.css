@@ -567,9 +567,9 @@ img {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: background-color: rgba(46, 47, 66, 0.4);
+  background-color: rgba(46, 47, 66, 0.4);
   top: 0;
-  transition: opacity 300ms linear;
+  transition: opacity 300ms linear, visibility 300ms linear;
 }
 
 .modal {
@@ -580,14 +580,19 @@ img {
   min-height: 500px;
   background-color: #ffffff;
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 300ms linear;
+  transition: transform 300ms linear ;
   border-radius: 5px;
   padding: 30px;
 }
 
+.backdrop .is-hidden .modal {
+  transform: translate(-50%, -50%) scaleY(0);
+
+}
+
 .modal-close{
-width: 30px;
-height: 30px;
+width: 24px;
+height: 24px;
 border: 1px solid #999999;
 border-radius: 50%;
 display: block;
